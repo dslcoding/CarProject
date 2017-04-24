@@ -76,7 +76,6 @@
 		85662FFB1EAA067A00AB1535 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 85662FFA1EAA067A00AB1535 /* libz.tbd */; };
 		85662FFD1EAA068300AB1535 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85662FFC1EAA068300AB1535 /* CoreTelephony.framework */; };
 		85662FFF1EAA073C00AB1535 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85662FFE1EAA073C00AB1535 /* AddressBook.framework */; };
-		856630011EAA0C0A00AB1535 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 856630001EAA0C0A00AB1535 /* Foundation+Log.m */; };
 		85891A1F1EA9AC9300353790 /* PersonalcarInfoCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85891A1E1EA9AC9300353790 /* PersonalcarInfoCollectionCell.m */; };
 /* End PBXBuildFile section */
 
@@ -222,7 +221,6 @@
 		85662FFA1EAA067A00AB1535 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		85662FFC1EAA068300AB1535 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		85662FFE1EAA073C00AB1535 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
-		856630001EAA0C0A00AB1535 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		85891A1D1EA9AC9300353790 /* PersonalcarInfoCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalcarInfoCollectionCell.h; sourceTree = "<group>"; };
 		85891A1E1EA9AC9300353790 /* PersonalcarInfoCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalcarInfoCollectionCell.m; sourceTree = "<group>"; };
 		DF3AA911E4F8E27F93753BDF /* Pods-CarProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarProject/Pods-CarProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -319,7 +317,6 @@
 		8531C57E1EA44CC5001E3E43 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				856630001EAA0C0A00AB1535 /* Foundation+Log.m */,
 				8531C57F1EA44CC5001E3E43 /* AppDelegate.h */,
 				8531C5801EA44CC5001E3E43 /* AppDelegate.m */,
 			);
@@ -1075,7 +1072,6 @@
 				851B29441EA89C2F0009586A /* ServiceCollectView.m in Sources */,
 				8531C5C01EA44CC5001E3E43 /* SuperVC.m in Sources */,
 				8531C5E81EA45CE3001E3E43 /* CarSectionTools.m in Sources */,
-				856630011EAA0C0A00AB1535 /* Foundation+Log.m in Sources */,
 				851B294C1EA8AF430009586A /* ServiceCollectViewCell.m in Sources */,
 				8531C5F61EA47D75001E3E43 /* BottomCellModel.m in Sources */,
 				8531C6191EA4B9CF001E3E43 /* NearByVC.m in Sources */,
