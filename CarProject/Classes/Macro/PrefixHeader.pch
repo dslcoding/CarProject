@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  CardProject
+//
+//  Created by 董诗磊 on 2017/4/11.
+//  Copyright © 2017年 董诗磊. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+#import "VCHeader.h"
+
+#import "VIewHeader.h"
+
+#import "LibHeader.h"
+
+#import "ConfigHeader.h"
+
+#import "CategoryHeader.h"
+
+#import "ToolsHeader.h"
+
+//各个部分的头头文件
+
+#import "CarSectionHeader.h"
+
+#import "ServiceSectionHeader.h"
+
+#import "MineSectionHeader.h"
+
+#endif /* PrefixHeader_pch */

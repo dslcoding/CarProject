@@ -1,0 +1,38 @@
+PODS:
+  - AMap3DMap-NO-IDFA (4.6.1):
+    - AMapFoundation-NO-IDFA (~> 1.3)
+  - AMapFoundation-NO-IDFA (1.3.4)
+  - AMapLocation-NO-IDFA (2.3.1):
+    - AMapFoundation-NO-IDFA (~> 1.3)
+  - AMapNavi-NO-IDFA (2.3.0):
+    - AMap3DMap-NO-IDFA (~> 4.2)
+    - AMapFoundation-NO-IDFA (~> 1.2)
+  - AMapSearch-NO-IDFA (5.0.0):
+    - AMapFoundation-NO-IDFA (~> 1.2)
+  - MJRefresh (3.1.12)
+  - SDAutoLayout (2.1.7)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - AMapLocation-NO-IDFA (~> 2.3.1)
+  - AMapNavi-NO-IDFA (~> 2.3.0)
+  - AMapSearch-NO-IDFA (~> 5.0.0)
+  - MJRefresh
+  - SDAutoLayout (~> 2.1.3)
+  - SDWebImage (~> 4.0.0)
+
+SPEC CHECKSUMS:
+  AMap3DMap-NO-IDFA: 4a1efafcebe244f80e923931c2f35e3929197283
+  AMapFoundation-NO-IDFA: 56b42e67233c8a883cfd448d94c4cb7380080741
+  AMapLocation-NO-IDFA: 7df5ab4b618d96665551afb0c6426f79db72a4a6
+  AMapNavi-NO-IDFA: a54f35c1c1e3e0ba14cf1139a7c7a6e8ff832fae
+  AMapSearch-NO-IDFA: 8fb4e844c27031f6791d5edce16fdd2a5cfac028
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SDAutoLayout: e9b36d04b8c0b504762a04d76fbbe5108944297a
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: 8bc69d72fa27a19a815081f0aa94254b0a9ff68b
+
+COCOAPODS: 1.2.1.beta.1

@@ -1,0 +1,1 @@
+../../../../AMapSearch-NO-IDFA/AMapSearchKit.framework/Headers/AMapSearchObj.h

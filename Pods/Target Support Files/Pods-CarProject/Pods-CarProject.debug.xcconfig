@@ -1,0 +1,11 @@
+ARCHS = $(ARCHS_STANDARD)
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AMap3DMap-NO-IDFA" "${PODS_ROOT}/AMapFoundation-NO-IDFA" "${PODS_ROOT}/AMapLocation-NO-IDFA" "${PODS_ROOT}/AMapNavi-NO-IDFA" "${PODS_ROOT}/AMapSearch-NO-IDFA"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AMap3DMap-NO-IDFA" "${PODS_ROOT}/Headers/Public/AMapFoundation-NO-IDFA" "${PODS_ROOT}/Headers/Public/AMapLocation-NO-IDFA" "${PODS_ROOT}/Headers/Public/AMapNavi-NO-IDFA" "${PODS_ROOT}/Headers/Public/AMapSearch-NO-IDFA" "${PODS_ROOT}/Headers/Public/MJRefresh" "${PODS_ROOT}/Headers/Public/SDAutoLayout" "${PODS_ROOT}/Headers/Public/SDWebImage"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/MJRefresh" "$PODS_CONFIGURATION_BUILD_DIR/SDAutoLayout" "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AMap3DMap-NO-IDFA" -isystem "${PODS_ROOT}/Headers/Public/AMapFoundation-NO-IDFA" -isystem "${PODS_ROOT}/Headers/Public/AMapLocation-NO-IDFA" -isystem "${PODS_ROOT}/Headers/Public/AMapNavi-NO-IDFA" -isystem "${PODS_ROOT}/Headers/Public/AMapSearch-NO-IDFA" -isystem "${PODS_ROOT}/Headers/Public/MJRefresh" -isystem "${PODS_ROOT}/Headers/Public/SDAutoLayout" -isystem "${PODS_ROOT}/Headers/Public/SDWebImage"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"MJRefresh" -l"SDAutoLayout" -l"SDWebImage" -l"c++" -l"stdc++.6.0.9" -l"z" -framework "AMapFoundationKit" -framework "AMapLocationKit" -framework "AMapNaviKit" -framework "AMapSearchKit" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreTelephony" -framework "CoreText" -framework "ImageIO" -framework "JavaScriptCore" -framework "MAMapKit" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

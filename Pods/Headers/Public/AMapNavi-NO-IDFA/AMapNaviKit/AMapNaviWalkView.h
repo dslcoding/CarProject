@@ -1,0 +1,1 @@
+../../../../AMapNavi-NO-IDFA/AMapNaviKit.framework/Headers/AMapNaviWalkView.h
