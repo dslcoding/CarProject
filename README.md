@@ -5,6 +5,7 @@
 
 ## [猎豹车联网](https://itunes.apple.com/cn/app/%E7%8C%8E%E8%B1%B9-chettah/id1179204049?mt=8)
 ## ![效果图](https://github.com/dslcoding/CarProject/blob/master/SaveVideop1.gif)
+### 有地图内容，所有尽量用真机调试
 
 ## 重要的事情说三遍
 
