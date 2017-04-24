@@ -1,10 +1,12 @@
 # CarProject
 开源项目
 
-# 最近忙着写了一个项目，在AppStroe中找的一个项目。项目整体的难度还可以，这个项目主要是地图用的比较多，让我对高德地图又从新学习了一遍。这样挺好的。代码写的不是太好，仅供参考。有价值就学习，没价值就算了。
+## 最近忙着写了一个项目，在AppStroe中找的一个项目。项目整体的难度还可以，这个项目主要是地图用的比较多，让我对高德地图又从新学习了一遍。这样挺好的。代码写的不是太好，仅供参考。有价值就学习，没价值就算了。
 
-## [猎豹车联网](https://itunes.apple.com/cn/app/%E7%8C%8E%E8%B1%B9-chettah/id1179204049?mt=8)
-## ![效果图](https://github.com/dslcoding/CarProject/blob/master/SaveVideop1.gif)
+### 项目的主要内容是地图导航。依托第三方地图，这里我用的高德地图。可以下载下来看一下。
+
+### [猎豹车联网](https://itunes.apple.com/cn/app/%E7%8C%8E%E8%B1%B9-chettah/id1179204049?mt=8)
+###![效果图](https://github.com/dslcoding/CarProject/blob/master/SaveVideop1.gif)
 ### 有地图内容，所有尽量用真机调试
 
 ## 重要的事情说三遍
